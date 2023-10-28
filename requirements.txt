@@ -1,0 +1,6 @@
+'pandas==1.5.3
+numpy==1.23.5
+matplotlib.pyplot==3.7.1
+seaborn==0.12.2
+sklearn.model_selection==1.2.2
+sklearn.linear_model==1.2.2
