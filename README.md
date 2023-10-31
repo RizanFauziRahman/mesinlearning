@@ -113,4 +113,4 @@ Hasilnya : sales : [91.05752142]
 -Link Kagle (https://www.kaggle.com/datasets/aemyjutt/salesdata)
 -Link Github (https://github.com/RizanFauziRahman/mesinlearning)
 -Link Stramlit (https://mesinlearning-8vym2wjkd94naqbkuwm5sz.streamlit.app/)
-![Alt text](Deploy.png)
+![Alt text](Deploy.PNG)
