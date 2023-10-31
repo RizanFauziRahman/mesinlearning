@@ -70,9 +70,9 @@ df.describe()
 selanjutnya lakukan seleksi dengan memisahkan mana saja atribut dan fitur yang akan 
 dijadikan sebagai label.
 ``` bash
-features = ['Product_ean', 'Price Each', 'Order ID', 'Quantity Ordered']
+features = ['Product_ean', 'Price Each', 'turnover', 'Quantity Ordered']
 x = df[features]
-y = df['margin']
+y = df['Cost price']
 x.shape, y.shape
 ```
 Hasilnya : ((185950, 4), (185950,))
@@ -102,8 +102,8 @@ Hasilnya : Akurasi Model Regresi Linier: 0.9939195048015663
 
 Membuat inputan Regresi Linear
 ``` bash
-#Product ean = 2.113973e+12	, Price Each = 149.99 , Order ID = 141234 , Quantity Ordered = 1
-inputan = np.array([[2.113973e+12, 149.99, 141234, 1]])
+#Product ean = 2.113973e+12	, Price Each = 149.99 , turnover = 185.490917 , Quantity Ordered = 1
+inputan = np.array([[2.113973e+12, 149.99, 185.490917, 1]])
 prediksi = lr.predict(inputan)
 print('sales :', prediksi)
 ```
