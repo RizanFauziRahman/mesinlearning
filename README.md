@@ -110,7 +110,5 @@ print('sales :', prediksi)
 Hasilnya : sales : [91.05752142]
 
 ## Deployment
--Link Kagle (https://www.kaggle.com/datasets/aemyjutt/salesdata)
--Link Github (https://github.com/RizanFauziRahman/mesinlearning)
--Link Stramlit (https://mesinlearning-8vym2wjkd94naqbkuwm5sz.streamlit.app/)
+(https://mesinlearning-8vym2wjkd94naqbkuwm5sz.streamlit.app/)<br>
 ![Alt text](Deploy.PNG)
